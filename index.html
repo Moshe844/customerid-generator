@@ -80,7 +80,7 @@
         let results = [];
 
         for (const refNum of refNums) {
-            const url = `https://x1.cardknox.com/report/rptpwd/${refNum}`;
+            const url = `https://customer-id-generator.glitch.me/proxy/${refNum}`; // or your Glitch URL
             try {
                 const response = await fetch(url);
                 if (!response.ok) {
